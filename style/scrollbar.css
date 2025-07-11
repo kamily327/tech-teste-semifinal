@@ -1,0 +1,11 @@
+#celulares::-webkit-scrollbar,#tablets::-webkit-scrollbar{
+    height: 5px;
+}
+#celulares::-webkit-scrollbar-thumb ,#tablets::-webkit-scrollbar-thumb{
+    background-color: #cc4419;
+    border-radius: 10px;
+}
+#celulares::-webkit-scrollbar-track ,#tablets::-webkit-scrollbar-track{
+   background-color: #ccc;
+   border-radius: 8px;
+}

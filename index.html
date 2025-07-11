@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style/scrollbar.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <style>
+    .font-sans {
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-sans">
+  <header class="flex justify-around bg-white items-center py-[20px] px-[10px]">
+    <div class="logo">
+      <h1 class="text-[2rem] font-sans font-bold">
+        <span class="text-[#e25717]">Power</span>Tech
+      </h1>
+    </div>
+
+    <nav>
+      <ul class="flex gap-5">
+        <li><a href="#" class="text-[#e25717] font-bold">Home</a></li>
+        <li><a href="#" class="text-[#e25717] font-bold">Celulares</a></li>
+        <li><a href="#" class="text-[#e25717] font-bold">Tablets</a></li>
+        <li><a href="#" class="text-[#e25717] font-bold">Acessórios</a></li>
+      </ul>
+    </nav>
+    <div class="icons flex gap-4">
+      <i class="fa fa-user text-[1.1rem] text-[#f76a1f] cursor-pointer"></i>
+      <i class="fa fa-search text-[1.1rem] text-[#f76a1f] cursor-pointer"></i>
+      <i class="fa fa-shopping-cart text-[1.1rem] text-[#f76a1f] cursor-pointer"></i>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div
+        class="content-hero flex flex-col justify-center md:px-[10%] px-[5%] bg-[url('../images/banner.jpg')] bg-center bg-cover w-full h-[700px] md:h-[600px] relative flex-wrap">
+        <div class="absolute inset-0 bg-black/60"></div>
+
+        <div class="conteudo relative z-10 flex flex-wrap gap-3 flex-col md:w-[570px]">
+          <div class="title">
+            <h2 class="font-bold text-white text-[2.5rem] uppercase md:text-[3rem]">
+              Os melhores eletrônicos com os melhores preços
+            </h2>
+          </div>
+
+          <div class="subtitle">
+            <p class="md:text-[1.3rem] text-[1.5rem] text-[#ddd]">
+              Smartphones, tablets, fones de ouvido e muito mais com até 30%
+              de desconto
+            </p>
+          </div>
+
+          <div class="ctn-button">
+            <button class="bg-[#cc4410] p-[10px] rounded-[5px] text-white cursor-pointer">
+              Comprar Agora
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section id="smartphones">
+      <div class="container-cel px-[20px] mt-[50px] max-w-[1200px] mx-auto m-[40px]">
+        <div class="flex justify-between items-center mb-[15px]">
+          <div class="title-cel">
+            <h2 class="text-[1.4rem] text-[#cc4410] font-bold">Celulares</h2>
+          </div>
+          <div class="filter text-[1.2rem] text-[#cc4410] font-bold">
+            <a href="">Ver todos</a>
+          </div>
+        </div>
+
+        <div id="celulares" class="flex gap-6 overflow-x-scroll py-[10px]">
+
+        </div>
+    </div>
+        </div>
+     
+        
+
+            
+</section>
+
+
+
+ <section>
+      <div class="container-tab px-[20px] mt-[50px] max-w-[1200px] mx-auto m-[40px]">
+        <div class="flex justify-between items-center mb-[15px]">
+          <div class="title-cel">
+            <h2 class="text-[1.4rem] text-[#cc4410] font-bold">Tablets</h2>
+          </div>
+          <div class="filter text-[1.2rem] text-[#cc4410] font-bold">
+            <a href="">Ver todos</a>
+          </div>
+        </div>
+
+        <div id="tablets" class="flex gap-6 overflow-x-scroll py-[10px]">
+
+        </div>
+
+
+      
+        </div>
+</section>
+
+
+
+
+ <section id="about-us">
+    <div class="container-about-us text-center max-w-[1200px] mx-auto px-[20px] mt-[90px]">
+        <div class="title">
+       <h2 class="font-bold text-[1.6rem] mb-[20px] ">Sobre Nós</h2>
+    </div>
+      <div class="text">
+           <p class="leading-loose">Power Tech é uma empresa criada para aproximar você do que há de mais moderno no mundo da tecnologia. Especiajzados na venda de celulares, tablets e acessórios, oferecemos produtos de alta qualidade que facilitam o seu dia a dia e mantêm você sempre conectado.
+           Nossa missão é proporcionar uma experiência de compra segura, prática e transparente. Trabalhamos com as principais marcas do mercado, trazendo inovação, variedade e preços competitivos para atender diferentes necessidades e estilos de vida.</p>
+      </div>
+    </div>
+ </section>
+
+
+
+
+
+  <section id="contact" class="mt-[70px]">
+
+    <div class="text-center">
+       <h2 class="font-bold text-[1.6rem]">Fale conosco</h2>
+    </div>
+       <form action="" class="" >
+
+        <div class="container-form mx-auto max-w-[800px] 
+        flex-col flex py-[30px] px-[20px]"  >
+         
+          <div class="dados flex flex-col gap-1 ">
+             <label for="nome" class="font-bold text-[#333333]">Nome</label>
+             <input type="text" class="border border-[#ccc] py-[10px] rounded-lg px-[5px] mb-[15px] text-[0.9rem]" required>
+             <label for="email" class="font-bold text-[#333333] ">Email</label>
+             <input type="email" name="email" id="email" class="border border-[#ccc] py-[10px] rounded-lg px-[5px] mb-[25px] px-[5px] text-[0.9rem]" required>
+          </div>
+
+    <div class="msg">
+      <label for="msg" class="font-bold text-[#333333]">Mensagem</label>
+     <textarea name="msg" id="" class=" w-full px-[5px] border border-[#ccc]"></textarea>
+    </div>
+       
+             
+
+
+          <div class="btn">
+             <button type="submit" class="bg-[#cc4410] p-[8px] rounded-lg text-white font-bold text-[0.9rem] cursor-pointer">
+               Enviar mensagem
+             </button>
+          </div>
+        </div>
+         
+       </form>
+  </section>
+</main>
+  <script src="./script/script.js"></script>
+</body>
+</html>
